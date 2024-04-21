@@ -9,11 +9,11 @@
     color: white;
 }
 body{
-	background:url(/assets/images/bgc.png);
+	background:url(assets/images/bgc.png);
 }
 
 header {
-    background: url(/assets/images/main-screen__bgc.png);
+    background: url(assets/images/main-screen__bgc.png);
     height: 920px;
 }
 header h1{
