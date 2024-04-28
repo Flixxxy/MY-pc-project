@@ -1,22 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 * {
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    color: white;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: white;
 }
-body{
-	background:url(assets/images/bgc.png);
+body {
+	background: url(assets/images/bgc.png);
 }
 
 header {
-    background: url(assets/images/main-screen__bgc.png);
-    height: 920px;
+	background: url(assets/images/main-screen__bgc.png);
+	height: 920px;
 }
-header h1{
+header h1 {
 	font-size: 64px;
 	font-weight: bold;
 	height: 180px;
@@ -24,12 +24,12 @@ header h1{
 	margin-top: 198px;
 	margin-left: 313px;
 }
-.time{
+.time {
 	display: flex;
 	margin-top: 50px;
 	margin-left: 313px;
 }
-.box{
+.box {
 	height: 112px;
 	width: 102px;
 	text-align: center;
@@ -37,70 +37,70 @@ header h1{
 	margin-left: 30px;
 	padding: 30px;
 }
-.box h2{
+.box h2 {
 	font-size: 36px;
 }
-.box p{
+.box p {
 	font-size: 16px;
-	color: rgba(255,255,255,40%);
+	color: rgba(255, 255, 255, 40%);
 	font-weight: lighter;
 }
 nav {
-    display: flex;
-    justify-content: space-between;
-    text-decoration: none;
+	display: flex;
+	justify-content: space-between;
+	text-decoration: none;
 }
 
 .navigation {
-    margin: 38px 80px;
-    list-style: none;
-    display: flex;
-    margin-right: 56px;
+	margin: 38px 80px;
+	list-style: none;
+	display: flex;
+	margin-right: 56px;
 }
 
 .navigation a {
-    margin-right: 56px;
-    text-decoration: none;
+	margin-right: 56px;
+	text-decoration: none;
 }
 
 .nav_button {
-    text-align: center;
-    padding: 10px 30px;
-    margin: 38px 80px;
-    text-decoration: none;
-    width: 184px;
-    height: 44px;
-    background: linear-gradient(30deg, #C89AFC, #7C6AFA);
-    border-radius: 50px;
+	text-align: center;
+	padding: 10px 30px;
+	margin: 38px 80px;
+	text-decoration: none;
+	width: 184px;
+	height: 44px;
+	background: linear-gradient(30deg, #c89afc, #7c6afa);
+	border-radius: 50px;
 }
 
-.nav_button:hover{
+.nav_button:hover {
 	width: 190px;
 	height: 50px;
-  padding: 15px 30px;
-	transition: .2s ease;
+	padding: 15px 30px;
+	transition: 0.2s ease;
 }
 
 .logo {
-    margin: 38px 80px;
-    width: 40px;
-    height: 40px;
+	margin: 38px 80px;
+	width: 40px;
+	height: 40px;
 }
-.header_bottom{
+.header_bottom {
 	margin-top: 218px;
 	height: 130px;
 	background: #121212;
 	display: flex;
 }
-.header_bottom > .nav_button{
+.header_bottom > .nav_button {
 	margin-top: 43px;
-	background:linear-gradient(40deg,#DF5950,#451046);
+	background: linear-gradient(40deg, #df5950, #451046);
 }
-.h_info ul{
+.h_info ul {
 	list-style: none;
 	display: flex;
 }
-.h_info ul > li{
+.h_info ul > li {
 	margin-top: 34px;
 	margin-right: 30px;
 	margin-left: 80px;
@@ -109,140 +109,141 @@ nav {
 .p_grey {
 	color: rgba(255, 255, 255, 40%);
 }
-.count_h p{
+.count_h p {
 	color: white;
 	font-weight: bold;
 }
-.header_progress ul{
+.header_progress ul {
 	list-style: none;
 	display: flex;
 }
-.header_progress ul > li{
+.header_progress ul > li {
 	margin-top: 34px;
 	margin-right: 30px;
 	margin-left: 80px;
 	line-height: 30px;
 }
 
-.progress_img{
+.progress_img {
 	margin-left: 81px;
 }
 
-
-.about{
+.about {
 	margin-left: 312px;
 	margin-top: 200px;
 	height: 542px;
 	width: 1301px;
 	display: flex;
 	justify-content: space-between;
-	background-color: rgba(255, 255,255 , 0.06);
+	background-color: rgba(255, 255, 255, 0.06);
 	border-radius: 50px;
 	padding: 30px;
 }
-.indo{
+.indo {
 	font-size: 48px;
 	margin-bottom: 48px;
 }
-.about-package{
+.about-package {
 	margin-left: 139px;
 	margin-top: 69px;
 }
 
-.about_job{
+.about_job {
 	margin-top: 200px;
 }
-.job_h{
+.job_h {
 	font-size: 48px;
 	text-align: center;
 }
-.job-1{
+.job-1 {
 	width: 416px;
 	height: 362px;
 	text-align: center;
 }
-.job-1 h3{
+.job-1 h3 {
 	font-size: 24px;
 }
-.job_info{
+.job_info {
 	margin-top: 120px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
-.job-1{
+.job-1 {
 	margin: 30px;
 }
-.job-1 p{
+.job-1 p {
 	margin-top: 30px;
 }
-.job-1 h3{
+.job-1 h3 {
 	margin-top: 30px;
 }
 
-.about_sponsor h2{
+.about_sponsor h2 {
 	margin-top: 200px;
 	margin-bottom: 100px;
 }
 
-.brand{
+.brand {
 	margin-top: 20px;
 	display: flex;
 	justify-content: center;
 	list-style: none;
 }
-.brand li{
+.brand li {
 	padding: 30px 120px 30px 120px;
-	border-left:solid gray;
+	border-left: solid gray;
 }
-.program{
+.program {
 	margin-top: 200px;
 }
-.program_info{
+.program_info {
 	margin-top: 90px;
 	display: flex;
 	justify-content: center;
 }
-.program_info ul{
+.program_info ul {
 	list-style: none;
 }
-.program_info ul p{
+.program_info ul p {
 	text-align: right;
 	font-size: 14px;
 	color: rgba(255, 255, 255, 40%);
-	margin-bottom:14px ;
+	margin-bottom: 14px;
 }
-.first{
+.first {
 	text-align: right;
 	font-size: 18px;
 	margin-bottom: 64px;
 }
-.program_info ul , li{
+.program_info ul,
+li {
 	margin-right: 20px;
 }
-.program_h , .program p{
+.program_h,
+.program p {
 	text-align: center;
 	margin-top: 30px;
 }
 
-.program_info li{
+.program_info li {
 	width: 300px;
 	height: 95px;
 	margin-bottom: 87px;
 }
-.second{
+.second {
 	margin-top: 100px;
 }
-.second{
-text-align: left;
+.second {
+	text-align: left;
 	font-size: 18px;
 	margin-bottom: 64px;
 	margin-left: 20px;
 }
-.teachers{
+.teachers {
 	margin-top: 200px;
 }
-.juice{
+.juice {
 	margin-top: 113px;
 	display: flex;
 	justify-content: space-evenly;
@@ -250,47 +251,47 @@ text-align: left;
 	list-style: none;
 }
 
-.juice h3{
+.juice h3 {
 	font-size: 24px;
 	margin-top: 40px;
 	margin-bottom: 15px;
 }
-.juice p{
-margin-bottom: 30px;
+.juice p {
+	margin-bottom: 30px;
 }
 .juice a {
 	border: 1px solid white;
 	border-radius: 20px;
 	padding: 10px 30px;
 	text-decoration: none;
-	transition: .2s;
+	transition: 0.2s;
 }
-.juice a:hover{
+.juice a:hover {
 	color: #121212;
 	background-color: aliceblue;
-	transition: .2s;
+	transition: 0.2s;
 }
-.juice img{
-	filter:blur(10px);
+.juice img {
+	filter: blur(10px);
 	transition: 2s;
 }
-.juice img:hover{
-	filter:blur(0);
-	transition: .2s;
+.juice img:hover {
+	filter: blur(0);
+	transition: 0.2s;
 }
-footer{
+footer {
 	margin-top: 200px;
 	align-items: center;
 	justify-content: center;
 	margin-bottom: 100px;
 }
-footer ul{
+footer ul {
 	display: flex;
 	list-style: none;
 	justify-content: center;
 }
-footer li{
-	background-color: #7C6AFA;
+footer li {
+	background-color: #7c6afa;
 	width: 50px;
 	height: 50px;
 	border-radius: 50%;
@@ -300,31 +301,68 @@ footer li{
 	margin-left: 50px;
 }
 
-.email{
+.email {
 	height: 44px;
 	width: 353px;
 	border: 1px solid gray;
 	border-radius: 50px;
 	padding: 15px 30px;
-	background-color: rgba(255, 255, 255, 40%);;
+	background-color: rgba(255, 255, 255, 40%);
 }
-.email::placeholder{
-	color:white;
+.email::placeholder {
+	color: white;
 }
-footer button{
+footer button {
 	border: 1px solid gray;
 	border-radius: 50px;
 	padding: 15px 30px;
-	background:linear-gradient(40deg,#DF5950,#451046);
+	background: linear-gradient(40deg, #df5950, #451046);
 }
-footer p{
+footer p {
 	text-align: center;
 	margin-top: 30px;
 	margin-bottom: 30px;
 }
-.inss{
+.inss {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	margin-bottom: 40px;
+}
+
+/*text glowing */
+
+.glow {
+	position: relative;
+	color: rgb(1, 23, 43);
+	outline: none;
+	animation: animate 5s linear;
+}
+@keyframes animate {
+	0%,
+	10%,
+	20%,
+	40.1%,
+	60%,
+	65.1%,
+	80%,
+	90.1%,
+	92% {
+		color: #2c2c2c;
+		text-shadow: none;
+	}
+
+	10.1%,
+	20.1%,
+	40%,
+	60.1%,
+	65%,
+	80.1%,
+	90%,
+	92.1%,
+	100% {
+		color: #ffffff;
+		text-shadow: 0 0 10px #7c6afa, 0 0 20px #7c6afa, 0 0 40px #7c6afa,
+			0 0 80px #7c6afa, 0 0 100px #7c6afa;
+	}
 }
