@@ -188,7 +188,15 @@ nav {
 	margin-top: 20px;
 	display: flex;
 	justify-content: center;
+	align-items: center;
 	list-style: none;
+}
+.brand img{
+	width: 200px;
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
 }
 .brand li {
 	padding: 30px 120px 30px 120px;
@@ -336,7 +344,7 @@ footer p {
 	position: relative;
 	color: rgb(1, 23, 43);
 	outline: none;
-	animation: animate 5s linear;
+	animation: animate 5s linear infinite;
 }
 @keyframes animate {
 	0%,
